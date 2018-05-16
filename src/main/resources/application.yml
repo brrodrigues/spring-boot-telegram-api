@@ -1,0 +1,12 @@
+logging:
+  level:
+    org:
+      telegram:
+        mtproto: off
+
+application:
+  telegram:
+    phone-number: ${APPLICATION_PHONE_NUMBER:}
+    api:
+      hash: ${APPLICATION_API_HASH:}
+      id: ${APPLICATION_API_ID:}
